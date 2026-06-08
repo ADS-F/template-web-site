@@ -1,0 +1,88 @@
+/*Estitlização com CSS*/
+
+* {
+    box-sizing: border-box;
+    /*todos os elementos sejam dimensionados*/
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*Cabeçalho*/
+header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/*Barra de navegação*/
+.navbar {
+    display: flex;
+    /*exibe os elementos de forma flexivel na tela*/
+    background-color: #333;
+}
+
+/*Links da barra de navegação*/
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    /*é usado para controlar a aparência de linhas decorativas no texto*/
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/*Mudança de cor na barra de navegação com hover*/
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    /*cor de fundo do link*/
+}
+
+/*container*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /*flexibiliza quando necessario*/
+}
+
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/*Conteudo principal*/
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/*falsa imagem*/
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/*rodapé*/
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+/*Layout responsivo - para telas menores que 700px de largura*/
+
+@media screen and (max-width: 700px) {
+
+    .container,
+    .navbar {
+        flex-direction: column;
+    }
+}
