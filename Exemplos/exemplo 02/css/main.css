@@ -39,7 +39,7 @@ header {
 /*Mudança de cor na barra de navegação com hover*/
 .navbar a:hover {
     background-color: #ddd;
-    color: black;
+    color: rgb(245, 243, 243);
     /*cor de fundo do link*/
 }
 
