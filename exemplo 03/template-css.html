@@ -1,4 +1,4 @@
-<!--Layout de com um cabeçalho, tres colunas e um rodapé-->
+<!--Layout de website com um cabeçalho, tres colunas e um rodapé-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,21 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template CSS Layout com tres colunas</title>
     <link rel="stylesheet" href="/Exemplos/exemplo 03/css/main.css">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
-    <header class="header">
-        <h1 class="header">Header</h1>
+<body class="bg-secondary text-white">
+    <header class="mb-3 py-5 header text-center">
+        <h1>Website</h1>
+        <p>Utilizando bootstrap para o layout</p>
     </header>
-    <h2>CSS com Float</h2>
+    <h3>Bootstrap</h3>
     <p>Exemplo de layout responsivo com cabeçalho, três colunas e um rodapé</p>
     <p>Redimensione a janela do navegador para visualizar o efeito responsivo na pagina</p>
-    <div class="row">
-        <div class="column" style="background-color: #aaa;">Coluna</div>
-        <div class="column" style="background-color: #bbb;">Coluna</div>
-        <div class="column" style="background-color: #ccc;">Coluna</div>
+    <div class="container text-center">
+        <div class="column py-5 mb-3" style="background-color: #aaa;">Coluna</div>
+        <div class="column py-5 mb-3" style="background-color: #bbb;">Coluna</div>
+        <div class="column py-5 mb-3" style="background-color: #ccc;">Coluna</div>
     </div>
-    <div class="footer">
+    <div class="py-3 footer text-center">
         <p>Rodapé</p>
     </div>
 </body>
