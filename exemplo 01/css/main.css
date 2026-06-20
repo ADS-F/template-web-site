@@ -1,5 +1,17 @@
-/*Estilização (CSS) no HTML*/
+/*Estilização imagem*/
 .fakeimg{
             height: 200px;
             background-color: #aaa;
         }
+/*Estilização da logo*/
+.wrapper{
+    display: flex;
+}
+
+#circle{
+    height: 100px;
+    width: 100px;
+    border: 20px solid black;
+    border-radius: 100px; /*para visualizar onde está a logo*/
+    position: relative;
+}
