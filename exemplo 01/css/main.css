@@ -1,7 +1,13 @@
+/*Estilização da barra de navegação*/
+
+nav{
+    background-color: #ccc;
+}
+
 /*Estilização imagem*/
-.fakeimg{
+.img{
             height: 200px;
-            background-color: #aaa;
+            background-color: #ccc;
         }
 /*Estilização da logo*/
 .wrapper{
@@ -11,7 +17,32 @@
 #circle{
     height: 100px;
     width: 100px;
-    border: 20px solid black;
+    border: 20px solid #ccc;
     border-radius: 100px; /*para visualizar onde está a logo*/
     position: relative;
+}
+p, .text-p{
+   text-align: justify; 
+}
+/*Estilização dos botões*/
+.button{
+    border: none;
+    padding: 8px;
+    width: 100%;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #bbb;
+}
+
+/*Efeito no botão*/
+button:hover{
+    background-color: #ccc;
+    color: white;
+}
+
+/*Estilização do rodapé*/
+.footer{
+    background-color: #ccc;
 }
