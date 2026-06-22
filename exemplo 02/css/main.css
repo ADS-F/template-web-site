@@ -43,7 +43,7 @@ a:hover {
     color: rgb(245, 243, 243); /*cor de fundo do link*/
 }
 /*estilização da descrição do titulo*/
-.description, .autor{
+.description, .info{
     font-style: italic;
     font-size: small;
 }
@@ -52,6 +52,7 @@ figcaption{
     font-size: small;
     background-color: white;
     font-style: italic;
+    text-align: end;
 }
 
 /*container*/
@@ -60,36 +61,17 @@ figcaption{
     flex-wrap: wrap;
     /*flexibiliza quando necessario*/
 }
-
-.side {
-    flex: 30%;
-    background-color: #f1f1f1;
-    padding: 20px;
-}
-
  .text {
             text-align: justify;
         }
 
-/*Conteudo principal*/
-.main {
-    flex: 70%;
-    background-color: white;
-    padding: 20px;
-}
-
-/*falsa imagem*/
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
-
 /*rodapé*/
-footer {
+footer{
     padding: 20px;
+    width: 100%;
+    background: #aaa;
+    color: white;
     text-align: center;
-    background: #ddd;
 }
 
 /*Layout responsivo - para telas menores que 700px de largura*/
