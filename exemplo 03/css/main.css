@@ -25,7 +25,7 @@
         }
 
 /*Limpando foats depois da coluna*/
-        .row:aftr {
+        .row:after {
             content: "";
             display: table;
             /*exibição do tipo tabela*/
@@ -42,6 +42,25 @@
          #box-container{
         text-align: justify;
     }
+
+    /*Links*/
+   div a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+    div a:hover{
+        color: #aaa;
+    }
+
+    /*rodape*/
+    footer{
+        text-align: center;
+        background-color: #aaa;
+        width: 100%;
+        padding: 5px;
+    }
+
 
 /*Responsividade*/
         @media (max-width: 600px) {
