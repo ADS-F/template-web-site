@@ -32,11 +32,16 @@
             clear: both;
         }
 
-        .footer {
-            background-color: #f1f1f1;
-            padding: 10px;
-            text-align: center;
+/*Descrição dos titulos*/
+        .description-title{
+            font-size: small;
+            font-style: italic;
         }
+
+        /*Alinhamento do conteudo principal*/
+         #box-container{
+        text-align: justify;
+    }
 
 /*Responsividade*/
         @media (max-width: 600px) {
