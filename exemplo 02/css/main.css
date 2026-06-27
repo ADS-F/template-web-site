@@ -83,3 +83,16 @@ footer{
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 600px){
+    .body{ background: none;}
+}
+@media screen and (max-width: 768px){
+    .body{ background: none;}
+}
+@media screen and (max-width: 992px){
+    .body{ background: none;}
+}
+@media screen and (max-width: 1200px){
+    .body{ background: none;}
+}
