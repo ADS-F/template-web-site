@@ -3,15 +3,26 @@ nav{
     background-color: #ccc;
 }
 /*Estilização dos links*/
-
 ul li a{
 padding: 5px;
- color:black;
+color: #ccc;
 text-decoration: none;
 }
-.nav a:hover{
-    color: white;
+
+a:hover{
+    color: black;
 }
+
+.container a:hover{
+    color: #aaa;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
 /*Estilização imagem*/
 .img{
             height: 200px;
@@ -44,25 +55,9 @@ p, .text-p{
     font-size: small;
     font-style: italic;
 }
-/*Estilização dos botões*/
-.button{
-    border: none;
-    padding: 8px;
-    width: 100%;
-    color: black;
-    margin-bottom: 10px;
-    text-align: center;
-    cursor: pointer;
-    background-color: #bbb;
-}
-
-/*Efeito no botão*/
-button:hover{
-    background-color: #ccc;
-    color: white;
-}
 
 /*Estilização do rodapé*/
 .footer{
     background-color: #ccc;
+    color:white;
 }

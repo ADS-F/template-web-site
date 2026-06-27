@@ -1,3 +1,6 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
 /*Estilização*/
 .topnav {
     overflow: hidden;
@@ -8,16 +11,16 @@
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
+
 /*mudar cor dos links com hover*/
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+a:hover {
+    color: #ddd;
 }
 
 .content {
@@ -27,13 +30,15 @@
     text-align: center;
 }
 
-/*Estilo rodapé*/
-.footer {
-    padding: 14px 16;
-    background-color: black;
-    text-align: center;
-    overflow: hidden;
-    color: white;
-    text-decoration: none;
+.description{
+    font-size: small;
+    font-style: italic;
 }
 
+/*Estilo rodapé*/
+footer{
+    padding: 14px 16;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+}
